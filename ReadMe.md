@@ -1,4 +1,4 @@
-# BoxArt Fetcher Pro
+# BOXROOM Game Cover Downloader for Linux
 
 A native Linux, Tkinter-based utility designed to scrape Steam library box art capsules and screenshots. It dynamically populates assets for public Steam profiles or API keys, with dedicated structural compatibility for the **BOXROOM** custom cache directory layout (`steam_cache_v2`).
 
@@ -10,10 +10,6 @@ A native Linux, Tkinter-based utility designed to scrape Steam library box art c
 - **Dynamic Configuration Sliders**: Real-time interactive tuning for thumbnail resolution scaling, grid column count constraints, and horizontal/vertical layout pitch padding.
 - **Native Scrolling Performance**: Smooth window rendering complete with scrollbar implementation and multi-platform mousewheel/trackpad event mapping support.
 - **Persistent Cache Tracking**: Automatically reads and saves key credentials securely into a local `details.ini` file.
-
-## Interface Preview
-
-The application uses an ultra-clean, classic retro/dark layout configuration complete with real-time logging, status tracking tiles, and responsive slider adjustment nodes.
 
 ## Prerequisites & Installation
 

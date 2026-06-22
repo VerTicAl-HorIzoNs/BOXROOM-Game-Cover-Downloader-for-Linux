@@ -15,25 +15,27 @@ A native Linux, Tkinter-based utility designed to scrape Steam library box art c
 
 ---
 
-## Prerequisites & Installation
+# Prerequisites & Installation
 
 Ensure you have Python 3 and the necessary GUI/Image management tools installed on your Linux configuration.
 
-### 1. System Dependencies
+## 1. System Dependencies
 
 **For Arch Linux setups (using pacman or paru):**
 
-    # Using native pacman
+### Using native pacman
+    
     sudo pacman -S python python-pillow tk
 
-    # Or using paru AUR helper
+### Or using paru AUR helper
+    
     paru -S python python-pillow tk
 
 **For Debian / Ubuntu / Mint systems:**
 
     sudo apt update && sudo apt install -y python3 python3-tk python3-pil python3-pil.imagetk
 
-### 2. Python Package Setup (Alternative)
+## 2. Python Package Setup (Alternative)
 
 If you manage Python assets independently or require specific local environment scopes:
 
@@ -45,14 +47,18 @@ If you manage Python assets independently or require specific local environment 
 
 1. Clone or download this repository onto your machine:
 
+    ```
     git clone [https://github.com/VerTiCal-HorIZoNs/BOXROOM-Game-Cover-Downloader-for-Linux.git](https://github.com/VerTiCal-HorIZoNs/BOXROOM-Game-Cover-Downloader-for-Linux.git)
     cd BOXROOM-Game-Cover-Downloader-for-Linux
+    ```
 
 2. Mark the script executable and launch it:
 
+    ```
     chmod +x boxart_fetcher.py
     ./boxart_fetcher.py
-
+    ```
+    
 3. Enter your SteamID64 configuration.
 4. Select your target path directory mode (**BOXROOM Cache** or generic **Downloads Folder**) and click **Fetch Library**.
 
